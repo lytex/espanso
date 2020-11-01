@@ -1,0 +1,84 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+
+  - trigger: ":timestamp"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d %H:%M:%S"
+
+  - trigger: ":rarrow"
+    replace: "→"
+
+  - trigger: ":Rarrow"
+    replace: "⇒"
+
+  - trigger: ":rrarrow"
+    replace: "⇉"
+    
+  - trigger: ":larrow"
+    replace: "←"
+
+  - trigger: ":Larrow"
+    replace: "⇐"
+
+  - trigger: ":llarrow"
+    replace: "⇇"
+    
+  - trigger: ":barrow"
+    replace: "↔"
+
+  - trigger: ":Barrow"
+    replace: "⇔"
+
+  - trigger: ":lrarrow"
+    replace: "⇆"
+    
+  - trigger: ":rlarrow"
+    replace: "⇄"
+
+  - trigger: ":uarrow"
+    replace: "↑"
+
+  - trigger: ":Uarrow"
+    replace: "⇑"
+
+  - trigger: ":uuarrow"
+    replace: "⇈"
+    
+  - trigger: ":darrow"
+    replace: "↓"
+
+  - trigger: ":Darrow"
+    replace: "⇓"
+
+  - trigger: ":ddarrow"
+    replace: "⇊"
+    
+  - trigger: ":aarrow"
+    replace: "↕"
+
+  - trigger: ":Aarrow"
+    replace: "⇕"
+
