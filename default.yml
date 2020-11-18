@@ -82,3 +82,5 @@ matches:
   - trigger: ":Aarrow"
     replace: "⇕"
 
+  - trigger: ":shrug"
+    replace: "¯\\_(ツ)_/¯"
