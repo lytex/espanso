@@ -84,3 +84,7 @@ matches:
 
   - trigger: ":shrug"
     replace: "¯\\_(ツ)_/¯"
+
+  - trigger: ":ipython"
+    replace: "from IPython import embed; embed()"
+
