@@ -28,58 +28,58 @@ matches:
         params:
           format: "%Y-%m-%d %H:%M:%S"
 
-  - trigger: ":rarrow"
+  - trigger: ":ra"
     replace: "→"
 
-  - trigger: ":Rarrow"
+  - trigger: ":Ra"
     replace: "⇒"
 
-  - trigger: ":rrarrow"
+  - trigger: ":rra"
     replace: "⇉"
     
-  - trigger: ":larrow"
+  - trigger: ":la"
     replace: "←"
 
-  - trigger: ":Larrow"
+  - trigger: ":La"
     replace: "⇐"
 
-  - trigger: ":llarrow"
+  - trigger: ":lla"
     replace: "⇇"
     
-  - trigger: ":barrow"
+  - trigger: ":ba"
     replace: "↔"
 
-  - trigger: ":Barrow"
+  - trigger: ":Ba"
     replace: "⇔"
 
-  - trigger: ":lrarrow"
+  - trigger: ":lra"
     replace: "⇆"
     
-  - trigger: ":rlarrow"
+  - trigger: ":rla"
     replace: "⇄"
 
-  - trigger: ":uarrow"
+  - trigger: ":ua"
     replace: "↑"
 
-  - trigger: ":Uarrow"
+  - trigger: ":Ua"
     replace: "⇑"
 
-  - trigger: ":uuarrow"
+  - trigger: ":uua"
     replace: "⇈"
     
-  - trigger: ":darrow"
+  - trigger: ":da"
     replace: "↓"
 
-  - trigger: ":Darrow"
+  - trigger: ":Da"
     replace: "⇓"
 
-  - trigger: ":ddarrow"
+  - trigger: ":dda"
     replace: "⇊"
     
-  - trigger: ":aarrow"
+  - trigger: ":aa"
     replace: "↕"
 
-  - trigger: ":Aarrow"
+  - trigger: ":Aa"
     replace: "⇕"
 
   - trigger: ":shrug"
