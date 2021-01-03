@@ -87,6 +87,9 @@ matches:
   - trigger: ";shrug"
     replace: "¯\\_(ツ)_/¯"
 
+  - trigger: ";ftable"
+    replace: "(╯°□°）╯︵ ┻━┻"
+
   - trigger: ";ipython"
     replace: "from IPython import embed; embed()"
 
