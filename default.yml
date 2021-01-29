@@ -88,5 +88,5 @@ matches:
     replace: "(╯°□°）╯︵ ┻━┻"
 
   - trigger: ":ipython"
-    replace: "from IPython import embed: embed()"
+    replace: "from IPython import embed; embed()"
 
