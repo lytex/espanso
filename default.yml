@@ -11,7 +11,7 @@ toggle_key: "RIGHT_ALT"
 matches:
 
   # Dates
-  - trigger: ":date"
+  - trigger: ";date"
     replace: "{{mydate}}"
     vars:
       - name: mydate
@@ -19,7 +19,7 @@ matches:
         params:
           format: "%Y-%m-%d"
 
-  - trigger: ":timestamp"
+  - trigger: ";timestamp"
     replace: "{{mydate}}"
     vars:
       - name: mydate
