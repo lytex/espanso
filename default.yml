@@ -27,66 +27,74 @@ matches:
         params:
           format: "%Y-%m-%d %H:%M:%S"
 
-  - trigger: ":ra"
+  - trigger: ";ra"
     replace: "→"
 
-  - trigger: ":rua"
+  - trigger: ";rua"
     replace: "⇒"
 
-  - trigger: ":rra"
+  - trigger: ";rra"
     replace: "⇉"
     
-  - trigger: ":la"
+  - trigger: ";la"
     replace: "←"
 
-  - trigger: ":lua"
+  - trigger: ";lua"
     replace: "⇐"
 
-  - trigger: ":lla"
+  - trigger: ";lla"
     replace: "⇇"
     
-  - trigger: ":ba"
+  - trigger: ";ba"
     replace: "↔"
 
-  - trigger: ":bua"
+  - trigger: ";bua"
     replace: "⇔"
 
-  - trigger: ":lra"
+  - trigger: ";lra"
     replace: "⇆"
     
-  - trigger: ":rla"
+  - trigger: ";rla"
     replace: "⇄"
 
-  - trigger: ":ua"
+  - trigger: ";ua"
     replace: "↑"
 
-  - trigger: ":uua"
+  - trigger: ";uua"
     replace: "⇑"
 
-  - trigger: ":uuua"
+  - trigger: ";uuua"
     replace: "⇈"
     
-  - trigger: ":da"
+  - trigger: ";da"
     replace: "↓"
 
-  - trigger: ":dua"
+  - trigger: ";dua"
     replace: "⇓"
 
-  - trigger: ":dda"
+  - trigger: ";dda"
     replace: "⇊"
     
-  - trigger: ":aa"
+  - trigger: ";aa"
     replace: "↕"
 
-  - trigger: ":aua"
+  - trigger: ";aua"
     replace: "⇕"
 
-  - trigger: ":shrug"
+  - trigger: ";shrug"
     replace: "¯\\_(ツ)_/¯"
 
-  - trigger: ":ftable"
+  - trigger: ";ftable"
     replace: "(╯°□°）╯︵ ┻━┻"
 
-  - trigger: ":ipython"
+  - trigger: ";ipython"
     replace: "from IPython import embed; embed()"
 
+  - trigger: ";pd"
+    replace: "import pandas as pd"
+
+  - trigger: ";plt"
+    replace: "import matplotlib.pyplot as plt"
+
+  - trigger: ";np"
+    replace: "import numpy as np"
