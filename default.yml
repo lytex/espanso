@@ -82,6 +82,18 @@ matches:
   - trigger: ";aua"
     replace: "⇕"
 
+  - trigger: ";lta"
+    replace: "↖"
+
+  - trigger: ";rta"
+    replace: "↗"
+
+  - trigger: ";rba"
+    replace: "↘"
+
+  - trigger: ";lba"
+    replace: "↙"
+
   - trigger: ";shrug"
     replace: "¯\\_(ツ)_/¯"
 
