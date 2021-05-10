@@ -94,6 +94,9 @@ matches:
   - trigger: ";lba"
     replace: "↙"
 
+  - trigger: ";ccc"
+    replace: "🔄"
+
   - trigger: ";shrug"
     replace: "¯\\_(ツ)_/¯"
 
