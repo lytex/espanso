@@ -94,6 +94,18 @@ matches:
   - trigger: ";lba"
     replace: "↙"
 
+  - trigger: ";ula"
+    replace: "↰"
+
+  - trigger: ";ura"
+    replace: "↱"
+
+  - trigger: ";dla"
+    replace: "↲"
+
+  - trigger: ";dra"
+    replace: "↳"
+
   - trigger: ";ccc"
     replace: "🔄"
 
