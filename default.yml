@@ -115,6 +115,8 @@ matches:
   - trigger: ";ftable"
     replace: "(╯°□°）╯︵ ┻━┻"
 
+################################# python libs ##################################
+
   - trigger: ";ipython"
     replace: "from IPython import embed; embed()"
 
@@ -126,3 +128,11 @@ matches:
 
   - trigger: ";np"
     replace: "import numpy as np"
+
+############################# new server installs ##############################
+
+  - trigger: ";tmux"
+    replace: "sudo apt-get install -y tmux"
+
+  - trigger: ";vim"
+    replace: "sudo apt-get install -y vim"
