@@ -4,6 +4,12 @@
 # You can refer to the official documentation:
 # https://espanso.org/docs/
 
+global_vars:
+  - name: "espanso_path"
+    type: "shell"
+    params:
+      cmd: "echo ${XDG_CONFIG_HOME:-$HOME/.config}/espanso"
+
 toggle_key: "RIGHT_ALT"
 
 # Matches are the substitution rules, when you type the "trigger" string
@@ -136,3 +142,25 @@ matches:
 
   - trigger: ";vim"
     replace: "sudo apt-get install -y vim"
+  - trigger: ";rvim"
+    replace: "echo vim scp://{{output}}:$PWD"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - bash
+            - /home/julian/.config/espanso/ssh_hosts.sh
+
+  - trigger: ";ssh"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - bash
+            - /home/julian/.config/espanso/ssh_hosts.sh
+  
+
+
