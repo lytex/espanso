@@ -108,6 +108,12 @@ matches:
   - trigger: ";dra"
     replace: "↳"
 
+  - trigger: ";rda"
+    replace: "↴"
+
+  - trigger: ";dlla"
+    replace: "↵"
+
   - trigger: ";ccc"
     replace: "🔄"
 
